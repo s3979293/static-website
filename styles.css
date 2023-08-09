@@ -34,6 +34,7 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #F9ED69;
+    padding: 5px;
 }
 
 .category {
@@ -79,10 +80,6 @@ h1:hover {
 nav.breadcrumb {
     padding: 10px 16px;
     font-size: 18px;
-}
-
-nav div {
-    display: inline;
 }
 
 nav.breadcrumb a::after {
@@ -166,4 +163,25 @@ p {
     border: dotted;
     padding: 20px;
     background-color: #F08A5D;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background-color: #F08A5D;
+    width: auto;
+    height: auto;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+fieldset div {
+    padding: 20px;
+}
+
+@media only screen and (max-width:324px) {
+    
 }
