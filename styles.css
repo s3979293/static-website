@@ -207,4 +207,13 @@ fieldset div {
         content: "\a";
         white-space: pre;
     }
+
+    .category {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section img {
+        padding: 10px;
+    }
 }
